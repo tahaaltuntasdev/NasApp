@@ -3,12 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Curiosity">
+    tools:context=".view.Curiosity">
 
 
-    <View
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/add_grey" />
-
+        android:layout_height="match_parent" />
 </FrameLayout>
