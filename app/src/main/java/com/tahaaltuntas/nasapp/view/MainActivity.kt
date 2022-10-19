@@ -1,10 +1,11 @@
-package com.tahaaltuntas.nasapp
+package com.tahaaltuntas.nasapp.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI.setupWithNavController
+import com.tahaaltuntas.nasapp.R
 import com.tahaaltuntas.nasapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
