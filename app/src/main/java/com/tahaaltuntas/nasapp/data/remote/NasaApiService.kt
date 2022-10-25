@@ -1,6 +1,6 @@
 package com.tahaaltuntas.nasapp.data.remote
 
-import com.tahaaltuntas.nasapp.Constants.BASE_URL
+import com.tahaaltuntas.nasapp.util.Constants.BASE_URL
 import com.tahaaltuntas.nasapp.data.model.NasaModel
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

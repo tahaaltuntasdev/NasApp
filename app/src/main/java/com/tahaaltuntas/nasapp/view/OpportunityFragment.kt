@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.tahaaltuntas.nasapp.R
 
 
-class Spirit : Fragment() {
+class OpportunityFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -16,7 +16,7 @@ class Spirit : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        return inflater.inflate(R.layout.fragment_spirit, container, false)
+        return inflater.inflate(R.layout.fragment_opportunity, container, false)
     }
 
 }

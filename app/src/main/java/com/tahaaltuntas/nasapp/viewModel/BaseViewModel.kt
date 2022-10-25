@@ -1,4 +1,4 @@
-package com.tahaaltuntas.nasapp
+package com.tahaaltuntas.nasapp.viewModel
 
 import androidx.lifecycle.ViewModel
 

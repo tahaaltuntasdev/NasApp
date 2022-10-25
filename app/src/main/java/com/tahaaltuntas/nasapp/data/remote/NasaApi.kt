@@ -1,6 +1,6 @@
 package com.tahaaltuntas.nasapp.data.remote
 
-import com.tahaaltuntas.nasapp.Constants.API_KEY
+import com.tahaaltuntas.nasapp.util.Constants.API_KEY
 import com.tahaaltuntas.nasapp.data.model.NasaModel
 import retrofit2.Response
 import retrofit2.http.GET

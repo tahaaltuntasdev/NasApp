@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/curiosity"
-        android:name="com.tahaaltuntas.nasapp.view.Curiosity"
+        android:name="com.tahaaltuntas.nasapp.view.CuriosityFragment"
         android:label="fragment_curiosity"
         tools:layout="@layout/fragment_curiosity" />
     <fragment
         android:id="@+id/spirit"
-        android:name="com.tahaaltuntas.nasapp.view.Spirit"
+        android:name="com.tahaaltuntas.nasapp.view.SpiritFragment"
         android:label="fragment_spirit"
         tools:layout="@layout/fragment_spirit" />
     <fragment
         android:id="@+id/opportunity"
-        android:name="com.tahaaltuntas.nasapp.view.Opportunity"
+        android:name="com.tahaaltuntas.nasapp.view.OpportunityFragment"
         android:label="fragment_opportunity"
         tools:layout="@layout/fragment_opportunity" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.tahaaltuntas.nasapp
+package com.tahaaltuntas.nasapp.util
 
 object Constants {
     const val BASE_URL = "https://api.nasa.gov/mars-photos/api/v1/"

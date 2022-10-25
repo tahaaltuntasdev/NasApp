@@ -9,12 +9,12 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
-import com.tahaaltuntas.nasapp.CuriosityViewModel
+import com.tahaaltuntas.nasapp.viewModel.CuriosityViewModel
 import com.tahaaltuntas.nasapp.adapter.CuriosityAdapter
 import com.tahaaltuntas.nasapp.databinding.FragmentCuriosityBinding
 
 
-class Curiosity : Fragment() {
+class CuriosityFragment : Fragment() {
     val curiosityAdapter = CuriosityAdapter(arrayListOf())
     private var curiosityVM: CuriosityViewModel? = null
     private var _binding: FragmentCuriosityBinding? = null

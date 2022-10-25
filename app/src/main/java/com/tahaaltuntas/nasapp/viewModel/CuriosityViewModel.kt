@@ -1,4 +1,4 @@
-package com.tahaaltuntas.nasapp
+package com.tahaaltuntas.nasapp.viewModel
 
 import androidx.lifecycle.MutableLiveData
 import com.tahaaltuntas.nasapp.data.model.Photo
