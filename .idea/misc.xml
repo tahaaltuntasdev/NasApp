@@ -8,6 +8,8 @@
         <entry key="..\:/NasApp/app/src/main/res/layout/fragment_curiosity.xml" value="0.24954710144927536" />
         <entry key="..\:/NasApp/app/src/main/res/layout/fragment_opportunity.xml" value="0.24954710144927536" />
         <entry key="..\:/NasApp/app/src/main/res/layout/fragment_spirit.xml" value="0.24954710144927536" />
+        <entry key="..\:/NasApp/app/src/main/res/layout/opportunity_recycler_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/NasApp/app/src/main/res/layout/spirit_recycler_item.xml" value="0.36666666666666664" />
         <entry key="..\:/NasApp/app/src/main/res/menu/nav_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
