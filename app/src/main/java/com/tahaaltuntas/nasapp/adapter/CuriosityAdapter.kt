@@ -17,8 +17,6 @@ class CuriosityAdapter(val photoModelList: ArrayList<Photo>) :
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CuriosityWH {
-        //val binding = CuriosityRecyclerItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-        //return CuriosityWH(binding)
         val inflater = LayoutInflater.from(parent.context)
         val view = inflater.inflate(R.layout.curiosity_recycler_item, parent, false)
         return CuriosityWH(view)

@@ -27,4 +27,8 @@ class NasaApiService {
     suspend fun getCuriosity(): Response<NasaModel> {
         return nasaApi.getCuriosity()
     }
+    suspend fun getOpportunity(): Response<NasaModel> {
+        return nasaApi.getOpportunity()
+    }
+
 }
