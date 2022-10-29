@@ -17,4 +17,9 @@ interface NasaApi {
         @Query("api_key") api_key: String = API_KEY
     ): Response<NasaModel>
 
+    @GET("rovers/spirit/photos?sol=1000")
+    suspend fun getSpirit(
+        @Query("api_key") api_key: String = API_KEY
+    ): Response<NasaModel>
+
 }
